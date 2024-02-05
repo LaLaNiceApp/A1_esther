@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
+* {
+    font-family: 'Fredoka', sans-serif;
+}
+
+/* hide scrollbar but allow scrolling */
+.column {
+    -ms-overflow-style: none;
+    /* for Internet Explorer, Edge */
+    scrollbar-width: none;
+    /* for Firefox */
+    overflow-y: scroll;
+}
+
+.column::-webkit-scrollbar {
+    display: none;
+    /* for Chrome, Safari, and Opera */
+}
+
+.drag-box {
+    min-height: 700px;
+    border: 3px dashed #ccc;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+    background-image: url('/compost2.jpg');
+    background-repeat: repeat;
+    background-position: center;
+}
+
+.drag-box:hover {
+    background-color: #e9ecef;
+}
+.overlay-text {
+    color: black;
+    border-radius: 15px;
+    /* Adjust as needed */
+    font-size: 24px;
+    /* Adjust as needed */
+}
