@@ -1,4 +1,4 @@
-# React + Vite
+# React + Vite + Bootstrap5 + Mui Material
 
 # how to start
 
